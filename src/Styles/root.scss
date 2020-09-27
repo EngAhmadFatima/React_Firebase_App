@@ -1,0 +1,23 @@
+@import "/shared/colors.scss";
+
+$font-main: "Tajawal", sans-serif;
+
+.root {
+  text-align: center;
+  margin-top: 70px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 30px;
+  background-color: whitesmoke;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: white;
+  background-color: $first-color;
+  margin-bottom: 1px;
+  opacity: 90%;
+}

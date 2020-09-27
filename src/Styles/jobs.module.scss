@@ -1,0 +1,49 @@
+$first-color: #8e2437;
+
+$font-main: "Tajawal", sans-serif;
+
+.card {
+  margin-bottom: 5px;
+  /*   padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 20px; */
+
+  :hover {
+    background-color: whitesmoke;
+  }
+}
+
+.cardHeader {
+  text-align: right;
+  margin: 0px;
+}
+
+.title {
+  font-family: "Tajawal";
+  padding: 0;
+  color: $first-color;
+  :hover {
+    color: red;
+  }
+}
+
+.subTitle {
+  font-family: "Tajawal";
+  padding: 0;
+  // margin-bottom: 5px;
+  //font-size: medium;
+  font-size: 20px;
+  color: gray;
+}
+
+.textField {
+  width: 300px;
+  margin-top: 20px;
+  border: red;
+
+  // text-align: right;
+  // font-family: "Tajawal";
+  // border: solid;
+  //  border-color: red;
+  // min-width: 250px;
+}
